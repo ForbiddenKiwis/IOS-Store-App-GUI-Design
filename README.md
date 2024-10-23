@@ -31,16 +31,13 @@ To run the SwiftUI Fruit Store application, you need Xcode installed on your mac
 
 ## Architecture
 
-The application follows the Model-View-ViewModel (MVVM) architecture to ensure a clear separation of concerns:
+The application follows the Model-View (MV) architecture to ensure a clear separation of concerns:
 
 1. **Model**:
    - Defines the data structures, such as `Fruit`, with properties like `name`, `image`, `description`, and `price`.
 
 2. **View**:
    - Implements the user interface using SwiftUI components, focusing on individual screens like the home screen and fruit detail view.
-
-3. **ViewModel**:
-   - Manages the business logic and prepares data for the views, ensuring that the UI is decoupled from the underlying data logic.
 
 ### Key Features of the Architecture:
 
